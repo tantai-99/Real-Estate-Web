@@ -1,0 +1,210 @@
+#modal {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	background: rgba(34,34,34,0.43)
+}
+
+.modal-set {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	top: 0;
+	left: 0;
+	display: table;
+	z-index: 99999
+}
+
+.modal-set .modal-contents-wrap {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle
+}
+
+.modal-set .modal-contents {
+	background: rgba(34,34,34,0.43);
+	background-color: #fff;
+	width: 876px;
+	height: 507px;
+	margin: 20px auto;
+	display: table
+}
+
+.modal-set .modal-contents.size-xxl {
+	width: 95%;
+	min-height: 550px
+}
+
+.modal-set .modal-header {
+	position: relative;
+	display: table;
+	width: 100%
+}
+
+.modal-set .modal-body {
+	display: table;
+	width: 100%;
+	height: 100%;
+	line-height: 1.2;
+	background: #FBEBD6
+}
+
+.modal-set .modal-body .modal-body-inner {
+	border-top: solid 1px rgba(0,0,0,0.05);
+	vertical-align: middle;
+	text-align: center;
+	padding: 15px;
+	display: table-cell
+}
+
+.modal-set .modal-body .align-top {
+	vertical-align: top
+}
+
+.modal-set .modal-body p {
+	text-align: left;
+	margin-bottom: 10px
+}
+
+.close-button-modal-square {
+	position: relative;
+	display: table-cell;
+	top: -37px;
+	float: right;
+	right: -15px;
+	height: 6px;
+	width: 45px;
+	border-bottom: 21px solid #FBEBD6;
+	border-right: 10px solid rgba(0,0,0,0.0117647059);
+	border-top-left-radius: 5px;
+	box-sizing: border-box;
+	border-left: 10px solid transparent
+}
+
+.close-button-modal-square:hover {
+	cursor: pointer
+}
+
+.text {
+	color: #000;
+	font-size: 24px;
+	background: #FBEBD6;
+	padding: 12px 20px;
+	font-weight: bold
+}
+
+.is-hide {
+	display: none
+}
+
+.modal-fdp-btns {
+	text-align: center;
+	margin-top: 40px;
+	clear: both
+}
+
+.modal-fdp-cancel-btns {
+	text-align: center;
+	margin-top: 40px;
+	padding-bottom: 20px
+}
+
+.modal-fdp-btns a {
+	font-size: 18px;
+	padding: 10px 90px;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 5px;
+	border: 2px solid #E37630;
+	background: linear-gradient(to bottom, #ff8542, #ff5c02)
+}
+
+.modal-fdp-btns a:hover {
+	opacity: .7;
+	text-decoration: none
+}
+
+.modal-fdp-cancel-btns a {
+	color: #000;
+	font-size: 14px
+}
+
+.modal-fdp-cancel-btns a:hover {
+	opacity: .7
+}
+
+.peripheral {
+	font-size: 12px
+}
+
+.file-upload {
+	height: 476px;
+	background: #fff
+}
+
+.file-upload .area {
+	height: 70%
+}
+
+.file-upload .left {
+	width: 50%;
+	float: left;
+	vertical-align: middle
+}
+
+.file-upload .left .contact-info {
+	padding-top: 18px;
+	text-align: left;
+	font-size: 14px;
+	line-height: 22px
+}
+
+.file-upload .left .contact-info p {
+	padding-top: 20px
+}
+
+.file-upload .left .left-content {
+	padding: 36px 0 0 36px;
+	width: 366px
+}
+
+.file-upload .right {
+	width: 50%;
+	float: left;
+	height: 100%;
+	vertical-align: middle
+}
+
+.file-upload .right .contact-img {
+	padding: 13px 10px 0 0
+}
+
+.file-upload .right .contact-text {
+	text-align: right;
+	font-size: 12px;
+	color: #666666;
+	padding-right: 32px
+}
+
+[class*="i-e-"] {
+	display: block;
+	text-indent: -9999px;
+	overflow: hidden
+}
+
+.i-e-delete {
+	width: 15px;
+	height: 15px;
+	background: url(../../imgs/icon_close.png) no-repeat
+}
+
+.modal-close-button {
+	padding-top: 4px;
+	padding-left: 6px;
+	display: inherit
+}

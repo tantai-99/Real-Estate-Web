@@ -1,0 +1,22 @@
+<form method="post" action="<?php echo $this->route()?>">
+<?php $this->csrfToken()?>
+
+<table>
+<?php foreach ($this->form->test as $name => $element):?>
+<tr>
+	<th><?php $this->form->test->label($name)?><?php if($element->isRequired()):?>【必須】<?php endif;?></th>
+	<td>
+		<?php $this->form->test->form($name)?>
+		<?php foreach ($element->getMessages() as $error):?>
+		<p style="color:red;"><?php echo $this->h($error)?></p>
+		<?php endforeach;?>
+	</td>
+</tr>
+<?php endforeach;?>
+</table>
+
+
+<?php echo $this->form->tdk?>
+
+<input type="submit" value="submit">
+</form>

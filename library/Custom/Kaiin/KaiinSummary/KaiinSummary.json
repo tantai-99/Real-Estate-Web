@@ -1,0 +1,75 @@
+{
+  "model": {
+    "kaiinNo": "sample string 1",
+    "seikiShogo": "sample string 2",
+    "seikiShogoKana": "sample string 3",
+    "ippanShogo": "sample string 4",
+    "ippanShogoKana": "sample string 5",
+    "daihyoTel": "sample string 6",
+    "ippanTel": "sample string 7",
+    "daihyoFax": "sample string 8",
+    "shozaichiCd1": "sample string 9",
+    "shozaichiCd2": "sample string 10",
+    "todofukenName": "sample string 11",
+    "cityName": "sample string 12",
+    "townName": "sample string 13",
+    "banchi": "sample string 14",
+    "buildingName": "sample string 15",
+    "menkyoKenCd": "sample string 16",
+    "menkyoKenName": "sample string 17",
+    "menkyoNo": "sample string 18",
+    "menkyoName": "sample string 19",
+    "isMenkyo": true,
+    "daihyoshaName": "sample string 20",
+    "fsKeiyakuKbn": "sample string 21",
+    "fsKeiyakuKbnName": "sample string 22",
+    "mainTantoCd": "sample string 23",
+    "mainTantoName": "sample string 24",
+    "fsTantoCd": "sample string 25",
+    "fsTantoName": "sample string 26",
+    "itTantoCd": "sample string 27",
+    "itTantoName": "sample string 28",
+    "cycle": "sample string 29",
+    "isKodokuStop": true,
+    "haifuEndDate": "sample string 30",
+    "railLineCd": "sample string 31",
+    "railLineName": "sample string 32",
+    "stationCd": "sample string 33",
+    "stationName": "sample string 34",
+    "seiyakuTel": "sample string 35",
+    "isRiyoStop": true,
+    "statusCd": "sample string 36"
+  },
+  "errors": [
+    {
+      "message": "sample string 1",
+      "fields": [
+        "sample string 1",
+        "sample string 2"
+      ]
+    },
+    {
+      "message": "sample string 1",
+      "fields": [
+        "sample string 1",
+        "sample string 2"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "message": "sample string 1",
+      "fields": [
+        "sample string 1",
+        "sample string 2"
+      ]
+    },
+    {
+      "message": "sample string 1",
+      "fields": [
+        "sample string 1",
+        "sample string 2"
+      ]
+    }
+  ]
+}

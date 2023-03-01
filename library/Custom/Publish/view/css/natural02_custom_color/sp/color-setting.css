@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+/* global */
+
+
+/* define parts
+========================================================= */
+
+/* altanate color */
+.tx-color1{color:#974600;}
+
+
+/* define background color
+========================================================= */
+.page-header,
+.company-info .company-tel a,
+.pagetop,
+.gnav2,
+.pager li span,
+.btn-lv1, 
+.btn-lv2,
+.article-heading,
+.heading-lv2-1column:before,
+.element-search-tab li.active a,
+.element-search-toggle dt,
+.element-search-tab4 li.active a,
+.howto-see .heading-howto,
+.howto-see .table-attention .heading-table,
+.element-table .element-table-heading,
+.slide-map-bl-list__heading
+{background-color:rgba(2,83,146,1); }
+
+
+/* override */
+.some-elms{background-color: transparent;}
+
+/* define foreground color
+========================================================= */
+.header-menu span:before,
+.slick-dots li.slick-active button:before,
+.contents-side .side-others-link li a:before,
+.pagetop a:before,
+.quote:before,
+.quote:after,
+.element-comment .element-heading,
+.element-qa dt:after,
+.link-pagelist a:before,
+.element-search-tab a,
+.element-search-tab4 a,
+.photo-slider-info li:before,
+.map-option__list a,
+.map-option__change a
+{color:rgba(2,83,146,1);}
+
+
+/* define border color
+========================================================= */
+/* top */
+.gnav2,
+.article-object
+{border-top-color:rgba(2,83,146,1);}
+
+/* bottom */
+.gnav2 li,
+.element-search-tab
+{border-bottom-color:rgba(2,83,146,1);}
+
+/* right */
+.gnav2 li:nth-of-type(2n+1)
+{border-right-color:rgba(2,83,146,1);}
+
+/* whole */
+.element-search-tab li.active a,
+.howto-pagetop a:before,
+.map-link-back:before
+{border-color:rgba(2,83,146,1);}
+
+
+/* define half tone background color
+========================================================= */
+.element-news dl+p.tac a.btn-lv2:before{background:rgba(2,83,146,.3);}
+.pager li a{background:rgba(2,83,146,.2);}
+
+.area-profile,
+.list-definition dd,
+.quote,
+.element-login,
+.element-comment,
+.element-error,
+.element-qa dt,
+.element-firstletter .inner,
+.element-box-bg,
+.element-toc
+{position: relative; background-color: #fff; z-index: 0;}
+div.halftone{background-color:rgba(2,83,146,.15);  position: absolute; left: 0; top: 0;  width: 100%; height: 100%; z-index: -1}
+
+.element-table th{background:rgba(2,83,146,.15);}
+
+.element-auto-link.link-menu a,
+.large-list > ul li a,
+.link-pick-up a,
+.element-auto-search-housing a,
+.small-category li a,
+.small-list ul li a,
+.link-other-category .link-other li a,
+.element-large-category .large-title,
+.element-large-category .large-link,
+.element-large-category .large-link a,
+.article-back a,
+.article-next a {
+	color: rgba(2,83,146,1);
+}
+.block-large-category dt::after {
+    content: "+";
+    color: rgba(2,83,146,1);
+}
+.block-large-category dt.block-open::after {
+    content: "-";
+    color: rgba(2,83,146,1);
+}
+.link-category a {
+    background: rgba(2,83,146,1) url(../imgs/arrow-forward.png) no-repeat right center;
+    background-size: 21px 10px;
+}
+.element-text-small-article .link-category a {
+    background: rgba(2,83,146,.3) url(../imgs/btn-article.png) no-repeat;
+    background-size: 100%;
+}

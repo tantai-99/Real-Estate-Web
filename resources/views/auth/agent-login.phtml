@@ -1,0 +1,30 @@
+<!-- メインコンテンツ -->
+<div class="main-contents account">
+	<h1>会員選択</h1>
+	<div class="main-contents-body">
+		<form action="<?php echo $this->route()?>" method="post">
+			<input type="hidden" name="TantoCD" value="<?php echo $this->h($this->tantoCD)?>">
+			<div class="section">
+				<h2>代行ログインする会員を選びましょう</h2>
+				<div class="deputize-set">
+					<dl>
+					<?php foreach ($this->form as $name => $element):?>
+						<dt><?php $this->form->label($name)?></dt>
+						<dd>
+							<?php $this->form->form($name)?>
+							<?php foreach ($element->getMessages() as $error):?>
+								<p class="error"><?php echo $this->h($error)?></p>
+							<?php endforeach;?>
+						</dd>
+					<?php endforeach;?>
+					</dl>
+				</div>
+			</div>
+			<div class="btns-center">
+				<input type="submit" value="ログイン" class="btn-t-blue size-l">
+			</div>
+		</form>
+	</div>
+</div>
+
+<!-- /メインコンテンツ -->

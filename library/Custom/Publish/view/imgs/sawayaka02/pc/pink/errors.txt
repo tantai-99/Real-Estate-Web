@@ -1,0 +1,2 @@
+[Thu Jan 21 2016 15:12:02 GMT+0900 (JST)] layer "icon_arrow_color1.png": Duplicate path: icon_arrow_color1.png
+[Thu Jan 21 2016 15:12:02 GMT+0900 (JST)] layer "kari@karinomail.com": Unsupported extension: com

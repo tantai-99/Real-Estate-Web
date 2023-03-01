@@ -1,0 +1,5 @@
+{
+    "Invalid type given. String, integer, float, boolean or array expected" : "不正な形式です。文字列、整数、小数、真偽値もしくは配列が期待されています。",
+    "validation.required" : "値は必須です。",
+    "validation.alpha_num": "半角英数字以外の文字が含まれています。"
+}

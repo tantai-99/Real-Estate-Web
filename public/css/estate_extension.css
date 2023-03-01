@@ -1,0 +1,167 @@
+.choson-search-input {
+    margin-left: 20px;
+}
+.choson-search-input li {
+    float: left;
+}
+.choson-search-input:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.modal-set .hide-select-choson .select-choson {
+    display: none;
+}
+.modal-set .select-choson:before {
+    content: "";
+    display: inline-block;
+    width: 1.2em;
+    color: red;
+}
+.modal-set .select-choson.select-choson--selected:before {
+    content: "✔";
+}
+.modal-set .select-choson a {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.modal-set .select-choson.is-disable a {
+    text-decoration: none;
+    opacity: 1 !important;
+    cursor: default;
+}
+
+.choson-search-list {
+    border-top: 1px solid #e0e2e3;
+    padding-top: 10px;
+}
+.choson-search-list dl {
+    display: table-row;
+}
+.choson-search-list dl dt {
+    display: table-cell;
+}
+.choson-search-list dl dt span {
+    display: inline-block;
+    background-color: #f4f7fa;
+    padding: 0px 5px;
+    white-space: nowrap;
+}
+.choson-search-list dl dd {
+    display: table-cell;
+    padding-left: 20px;
+}
+.choson-search-list dl dd span {
+    padding: 0 10px 5px 0;
+    display: inline-block;
+    white-space: nowrap;
+}
+.choson-search-list dl a {
+    cursor: pointer;
+    padding: 0 10px 5px 0;
+    display: inline-block;
+}
+.choson-display-town {
+    margin-left: 7px;
+}
+.choson-display-town li {
+    float: left;
+}
+/* 4489: Change UI setting FDP */
+.choson-display-town:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.fdp-text {
+    padding-top: 5px;
+    margin-left: -8px;
+}
+.fdp-not-use {
+    margin-bottom: 0 !important;;
+}
+.fdp-not-use {
+    margin-left: 0;
+}
+.fdp-label {
+    padding-top: 10px !important;
+}
+#display_town > li:nth-child(5) {
+    clear: both;
+}
+#display_town {
+    min-width: 665px;
+}
+/* end 4489 */
+/* 13008: fix bug html error*/
+#display_town .errors {
+    clear: both;
+}
+
+.article-search .tb-basic.ad-terms td .rp_detail_block {
+    margin: 6px;
+}
+.rp_cat_block {
+    padding-bottom: 10px;
+}
+.article-search .tb-basic.ad-terms td .rp_cat_block label {
+   display: inline-block;
+   width: 14em;
+   margin: 2px 0 2px 46px;
+   text-indent: -22px;
+   vertical-align: top;
+}
+
+.shumoku_shosai_box {
+    position: absolute;
+    z-index: 10;
+    border: solid 1px #a0a0a0;
+    background-color: #fff;
+    padding: 10px 10px 0 10px;
+    margin-left: 20px;
+    width: 600px;
+}
+
+.tesuryo_kokokuhi span label:last-of-type  {
+    margin-right: 2px;
+}
+.article-search .tb-basic.ad-terms td .tesuryo_box label:last-of-type  {
+    margin-right: 2px;
+}
+.tesuryo_kokokuhi .sp-basic-tesuryo label {
+    margin-right: 20px;
+}
+
+.tc-choson-detail {
+    display:none;
+    background:#fff;
+    position:absolute;
+    clear:both;
+    border:solid 1px #c0c0c0;
+    padding:5px;
+}
+
+.is-line th, .is-line td {
+    padding: 0 !important;
+    border-bottom: none;
+}
+
+.page_method {
+    border-spacing: 2px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .sp-basic-tesuryo > span > label > input {
+        position: relative;
+        top: 2px !important;
+    }
+}
+.sp-basic-tesuryo > span > label > input {
+    position: relative;
+    top: 1px;
+}
+
+#publish_estate > p:nth-child(1) {
+    padding-top: 0;
+}

@@ -1,0 +1,38 @@
+<<<--ip restriction-->>>
+
+<<<--basic authentication-->>>
+
+<IfModule mod_deflate.c>
+     BrowserMatch ^Mozilla/4\.0[678] no-gzip
+     BrowserMatch ^Mozilla/4 gzip-only-text/html
+     BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+
+     SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png|ico)$ no-gzip dont-vary
+     SetEnvIfNoCase Request_URI _\.utxt$ no-gzip
+
+     # html,css,jsÇÕà≥èk
+     AddOutputFilterByType DEFLATE text/html
+     AddOutputFilterByType DEFLATE text/css
+     AddOutputFilterByType DEFLATE application/javascript
+</IfModule>
+
+RewriteEngine On
+<<<--redirect to https-->>>
+# The following rule tells Apache that if the requested filename
+# exists, simply serve it.
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+
+# The following rewrites all other queries to index.php. The
+# condition ensures that if you are using Apache aliases to do
+# mass virtual hosting, the base path will be prepended to
+# allow proper resolution of the index.php file; it will work
+# in non-aliased environments as well, providing a safe, one-size
+# fits all solution.
+RewriteCond %{REQUEST_URI}::$1 ^(/.+)(.+)::$
+RewriteRule ^(.*)$ - [E=BASE:%1]
+RewriteRule ^(.*)$ /index.php [NC,L]
+
+<<<--file2 restriction-->>>

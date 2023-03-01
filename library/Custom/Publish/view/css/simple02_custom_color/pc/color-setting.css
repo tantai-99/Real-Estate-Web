@@ -1,0 +1,244 @@
+@charset "utf-8";
+
+/* global */
+.contents .inner a:hover{opacity: .8;}
+
+/* define parts
+========================================================= */
+.contents-article .item-detail-tab-contents .tab{border-bottom:4px solid;}
+.contents-article .item-detail-tab-contents .tab.bottom{border-top:4px solid; border-bottom:0;}
+
+/* altanate color */
+.tx-color1{color:#974600;}
+
+
+/* define background color
+========================================================= */
+.page-header-top .link li a,
+.page-header-top .link2 li a,
+.side-others-qr-heading,
+.element-table .element-table-heading,
+.contents-main-1column .form-flow,
+.element-table7 tr:first-child th,
+.element-table7 tbody tr:first-child th,
+.element-table8 tr:first-child th,
+.element-table8 tbody tr:first-child th,
+.contents-form .contents-main .form-flow,
+.page-footer,
+input.btn-lv3,
+.contents-main-1column .element-tab-search li.active a,
+.contents-main-1column .element-recommend .btn-prev a,
+.contents-main-1column .element-recommend .btn-next a,
+.element-error-heading,
+.heading-article,
+.articlelist-side-heading,
+.heading-lv1,
+.articlelist-side-section .link-more-term a,
+.contents-article .article-main-info .article-heading,
+.article-side-heading,
+.contents-article .item-detail-tab-contents .tab .cu a,
+.contents-article .heading-article-lv2:before,
+.article-checklist .heading-lv1-1column,
+.howto-see .heading-howto,
+.howto-see .heading-attention:before,
+.btn-lv1,
+.pagetop a,
+.page-footer .pagetop a,
+.modal-streetview__error .btn-close a
+{background-color:rgba(2,83,146,1); }
+
+
+/* override */
+.contents-main .heading-lv1,
+.contents-form .contents-main .heading-lv1{background-color: transparent;}
+
+/* define foreground color
+========================================================= */
+a:hover,
+.side-search-heading,
+.side-others-heading,
+.side-nav-heading,
+.side-search ul li a:hover,
+h1,h2,h3,h4,h5,h6,
+.heading-lv1,
+.heading-lv2,
+.heading-lv3,
+.side-nav li a:before,
+.btn-lv2,
+a.btn-lv2,
+a.btn-lv2:after,
+span.btn-wrap.lv2:after,
+.element-qa dt.q-open:after,
+.btn-wrap.lv4:after,
+a.btn-lv4,
+input.btn-lv4,
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before,
+.slick-dots li.slick-active button:before,
+.side-search ul li a:before,
+.side-search ul li a:hover,
+.side-others-link li a:before,
+.heading-lv3,
+.division-heading,
+.contents-main-1column .heading-kind span:before,
+.contents-main-1column .elemnet-kind-rent li a,
+.contents-main-1column .elemnet-kind-buy li a,
+.contents-main-1column .elemnet-kind-rent li:before,
+.contents-main-1column .elemnet-kind-buy li:before,
+.contents-main-1column .element-tab-search li a,
+.contents-main-1column .element-btn-search input,
+.contents-main-1column .element-btn-search .add-icn:before,
+.heading-search-from:before,
+.contents-main-1column .element-recommend a,
+.contents-article .article-main-info .article-heading .article-type .type,
+.side-watch .watch-list .watch-name a,
+.contents-article .item-detail-tab-contents .tab a,
+.recommend-name a,
+.sort-table .descend.active:after,
+.sort-table .ascend.active:after,
+.element-search-from-item a,
+.element-search-from li:before,
+.checklist-tab .active a,
+.howto-see .heading-attention,
+.element-heading a,
+.element-comment .element-heading,
+.pager a,
+.quote:before, .quote:after,
+.link-pagelist a,
+.link-pagelist li:before,
+a.link-pdf,
+a.link-word,
+a.link-excel,
+a.link-powerpoint,
+.element-login .tx-forget a,
+.slick-dots li.slick-active button:before,
+.maps-header .page-header-top .logo-s .company-link,
+.map-option__all span:before,
+.map-option__list span:before
+{color:rgba(2,83,146,1);}
+
+
+/* define border color
+========================================================= */
+/* top */
+.contents-main-1column .elemnet-kind-rent ul,
+.contents-main-1column .elemnet-kind-buy ul,
+.contents-article .item-detail-tab-contents .tab.bottom,
+.contents-main-1column .element-tab-search.bottom,
+.contents-map,
+.howto-see .link-page a:after
+{border-top-color:rgba(2,83,146,1);}
+
+.pager-bottom
+{border-top-color:rgba(2,83,146,.2);}
+
+
+/* bottom */
+.gnav ul li a:hover,
+.contents-main-1column .element-tab-search,
+.contents-article .item-detail-tab-contents .tab,
+.side-nav-heading
+{border-bottom-color:rgba(2,83,146,1);}
+
+.side-search,
+.side-others-link,
+.element-news dd,
+.pager
+{border-bottom-color:rgba(2,83,146,.2);}
+
+/* whole */
+input.btn-lv2,
+a.btn-lv2,
+.contents-main-1column .element-tab-search li.active,
+.contents-main-1column .heading-recommend,
+.articlelist-side-section .articlelist-side-heading2,
+.contents-article .item-detail-tab-contents .tab .cu a,
+.howto-see .heading-howto2
+{border-color:rgba(2,83,146,1);}
+
+/* left */
+.element-login dt
+{border-left-color:rgba(2,83,146,1);}
+
+/* define half tone background color
+========================================================= */
+.side-others-qr,
+.area-profile,
+.element-table th,
+.list-definition dd,
+.element-qa dd,
+.element-table7 td.cell-checkbox,
+.element-table6 th, .element-table7 th, .element-table8 th,
+.contents-main-1column .element-search-table th,
+.contents-main-1column .element-detail-table th,
+.form-table th
+{background-color:rgba(2,83,146,.075);}
+
+a.btn-lv4,
+input.btn-lv4,
+.element-error,
+.contents-main-1column .heading-area label,
+.element-search-area-item.from-map .heading-area,
+.contents-main-1column .element-recommend,
+.contents-article .section-company .company-body,
+.page-special .element-recommend,
+.howto-see .heading-table,
+.quote,
+.element-qa dt,
+.element-firstletter
+{background-color:rgba(2,83,146,.15);}
+
+.contents-article .photo-gallery .left .thumb-list .active:after
+{border: 2px solid rgba(2,83,146,1);}
+
+.contents-article .photo-gallery .right .btn-move a
+{background: rgba(2,83,146,1);}
+
+.floatbox.gallery .btn-move a
+{background-color: rgba(2,83,146,1);}
+
+.element-auto-link.link-menu li a {
+	color: rgba(2,83,146,1);
+}
+.block-large-category .heading-lv2::before {
+    background: url(../imgs/icon_detail.png) no-repeat left center;
+    background-color: rgba(2,83,146,1);
+}
+.element-auto-link.large-list ul li a::before,
+.link-other-category .link-other::before {
+    background: url(../imgs/icon_link.png) no-repeat left center;
+    background-color: rgba(2,83,146,1);
+}
+.element-auto-link.pick-up a::before {
+    background: url(../imgs/icon_link_pick.png) no-repeat left center;
+    background-color: rgba(2,83,146,1);
+}
+.element-auto-link.pick-up a,
+.element-auto-link .link-category a::after,
+.element-auto-search-housing a::before,
+.small-category li a::before,
+.element-auto-link.small-list ul li a::before,
+.element-large-category .large-title,
+.element-large-category .large-link a,
+.element-large-category .large-link::before,
+.article-back span::before,
+.article-next span::after {
+	color: rgba(2,83,146,1);
+}
+.element-auto-link .link-category a{
+	border: 3px solid rgba(2,83,146,1);
+}
+.element-auto-search-housing a:hover {
+	color: rgba(2,83,146,1);
+}
+.block-small-category .heading-lv2::before {
+    background: url(../imgs/icon_category.png) no-repeat left center;
+    background-color: rgba(2,83,146,1);
+}
+.element-auto-link.link-other-category h3::before {
+	background: url(../imgs/icon_check.png) no-repeat center center;
+    background-color: rgba(2,83,146,1);
+}
+.element-text-small-article .link-category a{
+    background: rgba(2,83,146,1);
+}

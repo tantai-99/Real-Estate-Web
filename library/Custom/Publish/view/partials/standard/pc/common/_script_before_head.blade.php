@@ -1,0 +1,1 @@
+<?php if (!$view->isPreview) echo file_get_contents($view->getScriptPath('script/memberonly.blade.php')); ?>

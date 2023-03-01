@@ -1,0 +1,260 @@
+{
+  "model": {
+    "versionNo": 1,
+    "kaiinNo": "kaiinNo",
+    "shozaichiCd1": "sample string 2",
+    "shozaichiCd2": "sample string 3",
+    "postNo": "sample string 4",
+    "todofukenName": "sample string 5",
+    "cityName": "cityName",
+    "townName": "townName",
+    "banchi": "banchi",
+    "buildingName": "buildingName",
+    "railLineCd": "sample string 10",
+    "railLineName": "railLineName",
+    "stationCd": "sample string 12",
+    "stationName": "stationName",
+    "searchForRailLineStationCd": "sample string 14",
+    "tohoJikan": 1,
+    "tohoKyori": 2,
+    "busJikan": 3,
+    "busteiJikan": 4,
+    "busteiKyori": 5,
+    "busteiName": "sample string 15",
+    "seikyusakis": [
+      {
+        "kaiEdaNo": "sample string 1",
+        "seikyusakiName": "sample string 2",
+        "seikyusakiPostNo": "sample string 3",
+        "seikyusakiShozaichiCd1": "sample string 4",
+        "seikyusakiShozaichiCd2": "sample string 5",
+        "seikyusakiTodofukenName": "sample string 6",
+        "seikyusakiCityName": "sample string 7",
+        "seikyusakiTownName": "sample string 8",
+        "seikyusakiBanchi": "sample string 9",
+        "seikyusakiBuildingName": "sample string 10",
+        "seikyusakiSofusakiName": "sample string 11",
+        "createDate": "sample string 12",
+        "createTime": "sample string 13",
+        "creator": "sample string 14",
+        "updateDate": "sample string 15",
+        "updateTime": "sample string 16",
+        "updater": "sample string 17"
+      },
+      {
+        "kaiEdaNo": "sample string 1",
+        "seikyusakiName": "sample string 2",
+        "seikyusakiPostNo": "sample string 3",
+        "seikyusakiShozaichiCd1": "sample string 4",
+        "seikyusakiShozaichiCd2": "sample string 5",
+        "seikyusakiTodofukenName": "sample string 6",
+        "seikyusakiCityName": "sample string 7",
+        "seikyusakiTownName": "sample string 8",
+        "seikyusakiBanchi": "sample string 9",
+        "seikyusakiBuildingName": "sample string 10",
+        "seikyusakiSofusakiName": "sample string 11",
+        "createDate": "sample string 12",
+        "createTime": "sample string 13",
+        "creator": "sample string 14",
+        "updateDate": "sample string 15",
+        "updateTime": "sample string 16",
+        "updater": "sample string 17"
+      }
+    ],
+    "daihyoshaInfo": {
+      "daihyoshaName": "sample string 1",
+      "daihyoshaKana": "sample string 2",
+      "daihyoshaBirthDate": "sample string 3",
+      "daihyoshaShozaichiCd1": "sample string 4",
+      "daihyoshaShozaichiCd2": "sample string 5",
+      "daihyoshaPostNo": "sample string 6",
+      "daihyoshaTodofukenName": "sample string 7",
+      "daihyoshaCityName": "sample string 8",
+      "daihyoshaTownName": "sample string 9",
+      "daihyoshaBanchi": "sample string 10",
+      "daihyoshaBuildingName": "sample string 11",
+      "daihyoshaTel": "sample string 12"
+    },
+    "shihonkin": 1,
+    "setsuritsuDate": "sample string 16",
+    "staffCnt": 1,
+    "daihyoTorihikiShunin": "sample string 17",
+    "torihikiShuninshaCnt": 1,
+    "eigyoTimeInfo": {
+      "eigyoStartTime": "sample string 1",
+      "eigyoEndTime": "sample string 2",
+      "otherEigyoTime": "sample string 3"
+    },
+    "teikyuDateInfo": {
+      "teikyuDay": "sample string 1",
+      "otherTeikyuDay": "sample string 2"
+    },
+    "tenpoKbn": "sample string 18",
+    "tenpoKbnName": "sample string 19",
+    "tenpoKaisuKbn": "sample string 20",
+    "tenpoKaisuKbnName": "sample string 21",
+    "isGyotaiMotozuke": true,
+    "isGyotaiKyakuzuke": true,
+    "tenpoSekininshaName": "sample string 22",
+    "hoshoKyokaiCd": "sample string 23",
+    "hoshoKyokaiName": "sample string 24",
+    "blackKaiinKbn": "sample string 25",
+    "blackKaiinKbnName": "sample string 26",
+    "isRiyoStop": true,
+    "kaiinLat": 1.0,
+    "kaiinLng": 1.0,
+    "kaiinGmatchLv": "sample string 27",
+    "kaiinLatHosei": 1.0,
+    "kaiinLngHosei": 1.0,
+    "biko": "sample string 28",
+    "isMaisokuHaifu": true,
+    "isMenkyo": true,
+    "createDate": "sample string 29",
+    "createTime": "sample string 30",
+    "creator": "sample string 31",
+    "updateDate": "sample string 32",
+    "updateTime": "sample string 33",
+    "updater": "sample string 34",
+    "kotoriCd": "sample string 35",
+    "kotoriName": "sample string 36",
+    "shozokus": [
+      {
+        "kaiEdaNo": "sample string 1",
+        "shozokuDantaiCd": "sample string 2",
+        "shozokuDantaiName": "sample shozokuDantaiName 3",
+        "shozokuDantaiNyukaiDate": "19990511",
+        "shozokuDantaiTaikaiDate": "20170511",
+        "createDate": "sample string 6",
+        "createTime": "sample string 7",
+        "creator": "sample string 8",
+        "updateDate": "sample string 9",
+        "updateTime": "sample string 10",
+        "updater": "sample string 11"
+      },
+      {
+        "kaiEdaNo": "sample string 1",
+        "shozokuDantaiCd": "sample string 2",
+        "shozokuDantaiName": "sample shozokuDantaiName 3",
+        "shozokuDantaiNyukaiDate": "20170511",
+        "shozokuDantaiTaikaiDate": "20170511",
+        "createDate": "sample string 6",
+        "createTime": "sample string 7",
+        "creator": "sample string 8",
+        "updateDate": "sample string 9",
+        "updateTime": "sample string 10",
+        "updater": "sample string 11"
+      }
+    ],
+    "gyoseiShobuns": [
+      {
+        "seqNo": 1,
+        "isKokaiStop": true,
+        "gyoseiShobunNaiyoKbn": "sample string 1",
+        "gyoseiShobunStartDate": "sample string 2",
+        "gyoseiShobunEndDate": "sample string 3",
+        "torihikiStopKikanFrom": "sample string 4",
+        "torihikiStopKikanTo": "sample string 5",
+        "createDate": "sample string 6",
+        "createTime": "sample string 7",
+        "creator": "sample string 8",
+        "updateDate": "sample string 9",
+        "updateTime": "sample string 10",
+        "updater": "sample string 11"
+      },
+      {
+        "seqNo": 1,
+        "isKokaiStop": true,
+        "gyoseiShobunNaiyoKbn": "sample string 1",
+        "gyoseiShobunStartDate": "sample string 2",
+        "gyoseiShobunEndDate": "sample string 3",
+        "torihikiStopKikanFrom": "sample string 4",
+        "torihikiStopKikanTo": "sample string 5",
+        "createDate": "sample string 6",
+        "createTime": "sample string 7",
+        "creator": "sample string 8",
+        "updateDate": "sample string 9",
+        "updateTime": "sample string 10",
+        "updater": "sample string 11"
+      }
+    ],
+    "menkyoKenCd": "sample string 37",
+    "menkyoKenName": "sample string 38",
+    "menkyoKbn": "sample string 39",
+    "menkyoKbnName": "sample string 40",
+    "menkyoUpdateCnt": 1,
+    "menkyoNo": "sample string 41",
+    "menkyoName": "sample string 42",
+    "menkyoYukoDate": "sample string 43",
+    "menkyoUmuKbn": "sample string 44",
+    "menkyoUmuKbnName": "sample string 45",
+    "buCd": "sample string 46",
+    "kaCd": "sample string 47",
+    "hanCd": "sample string 48",
+    "kaiinLinkNo": "078044",
+    "seikiShogo": {
+      "shogoName": "sample string 1",
+      "shogoKana": "sample string 2",
+      "shogoRyakusho": "sample string 3"
+    },
+    "ippanShogo": {
+      "shogoName": "sample string 1",
+      "shogoKana": "sample string 2",
+      "shogoRyakusho": "sample string 3"
+    },
+    "hanbaiShogo": {
+      "shogoName": "sample string 1",
+      "shogoKana": "sample string 2",
+      "shogoRyakusho": "sample string 3"
+    },
+    "bukkenShogo": {
+      "shogoName": "sample string 1",
+      "shogoKana": "sample string 2",
+      "shogoRyakusho": "sample string 3"
+    },
+    "contact": {
+      "daihyoTel": "sample string 1",
+      "seiyakuCheckTel": "sample string 2",
+      "ippanTel": "sample string 3",
+      "daihyoFax": "sample string 4",
+      "mailToFax": "sample string 5",
+      "zumenDeliveryFax": "sample string 6",
+      "daihyoMail": "sample string 7",
+      "hankyoReceiveMail": "sample string 8",
+      "seiyakuReportMail": "sample string 9"
+    },
+    "isNotUsedMapSearch": false,
+    "statusCd": "sample string 50"
+  },
+  "errors": [
+    {
+      "message": "sample string 1",
+      "fields": [
+        "sample string 1",
+        "sample string 2"
+      ]
+    },
+    {
+      "message": "sample string 1",
+      "fields": [
+        "sample string 1",
+        "sample string 2"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "message": "sample string 1",
+      "fields": [
+        "sample string 1",
+        "sample string 2"
+      ]
+    },
+    {
+      "message": "sample string 1",
+      "fields": [
+        "sample string 1",
+        "sample string 2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+@charset "utf-8";
+
+/* global */
+
+
+/* define parts
+========================================================= */
+
+/* altanate color */
+.tx-color1{color:#974600;}
+
+
+/* define background color
+========================================================= */
+.pagetop,
+.gnav2,
+.btn-lv1, 
+.btn-lv2,
+.heading-lv2-1column:before,
+.element-search-tab li.active a,
+.element-search-toggle dt,
+.element-search-tab4 li.active a,
+.howto-see .heading-howto,
+.howto-see .table-attention .heading-table,
+.page-footer,
+.article-main-info .article-heading,
+.form-flow,
+.element-table .element-table-heading,
+.element-qa dt:after,
+.slide-map-bl-list__heading
+{background-color:rgba(2,83,146,1); }
+
+
+/* override */
+.some-elms{background-color: transparent;}
+
+/* define foreground color
+========================================================= */
+h1,h2,h3,h4,h5,h6,
+.header-menu span:before,
+.slick-dots li.slick-active button:before,
+.contents-side .side-others-link li a:before,
+.quote:before,
+.quote:after,
+.element-comment .element-heading,
+.link-pagelist a:before,
+.element-search-tab a,
+.element-search-tab4 a,
+.photo-slider-info li:before,
+.map-option__list a,
+.map-option__change a,
+.article-heading,
+.btn-goback span.btn-wrap input[name=back],
+.btn-goback span.btn-wrap input[name=back]:after,
+.link-pagelist a,
+.element-qa dt.q-open:after,
+.element-qa dt span,
+.element-qa dt:before,
+.btn-goback a.btn-lv2
+{color:rgba(2,83,146,1);}
+
+
+/* define border color
+========================================================= */
+/* top */
+.gnav2,
+.article-object
+{border-top-color:rgba(2,83,146,1);}
+
+/* bottom */
+.gnav2 li,
+.element-search-tab
+{border-bottom-color:rgba(2,83,146,1);}
+
+/* right */
+.gnav2 li:nth-of-type(2n+1)
+{border-right-color:rgba(2,83,146,1);}
+
+/* whole */
+.element-search-tab li.active a,
+.howto-pagetop a:before,
+.map-link-back:before,
+.company-info .company-tel a
+{border-color:rgba(2,83,146,1);}
+
+.contents-side
+{border-color:rgba(2,83,146,.15);}
+
+/* define half tone background color
+========================================================= */
+.element-news dl+p.tac a.btn-lv2:before{color:rgba(2,83,146,.3);}
+
+.area-profile,
+.list-definition dd,
+.quote,
+.element-login,
+.element-comment,
+.element-error,
+.element-qa dt,
+.element-firstletter .inner,
+.table-article-info.main th,
+.btn-goback span.btn-wrap input.btn-lv2,
+.btn-goback span.btn-wrap input.btn-lv3,
+.form-table th,
+.element-table th,
+.element-tximg6,
+.btn-goback a.btn-lv2,
+.element-box-bg
+{background-color:rgba(2,83,146,.15);}
+
+.element-qa dd
+{background-color:rgba(2,83,146,.05);}
+
+.element-auto-link.link-menu li a {
+	color: rgba(2,83,146,1);
+}
+.block-large-category .heading-lv2::before {
+    background: url(../imgs/icon_detail.png) no-repeat left center;
+    background-color: rgba(2,83,146,1);
+}
+.block-large-category dt::after,
+.link-other-category dt::after {
+    content: "";
+    background: rgba(2,83,146,1) url(../imgs/icon_plus1.png) no-repeat center;
+}
+.block-large-category dt.block-open::after,
+.link-other-category dt.block-open::after {
+    content: "";
+    background: rgba(2,83,146,1) url(../imgs/icon_minus1.png) no-repeat center;
+}
+.large-list > ul li a::before,
+.link-other-category .link-other::before {
+    background: url(../imgs/icon_link.png) no-repeat left center;
+    background-color: rgba(2,83,146,1);
+}
+.link-pick-up a::before {
+    background: url(../imgs/icon_link_pick.png) no-repeat left center;
+    background-color: rgba(2,83,146,1);
+}
+.pick-up a,
+.pick-up span,
+.link-category a::after,
+.element-auto-search-housing a::before,
+.small-category li a::before,
+.small-list ul li a::before,
+.element-large-category .large-title,
+.element-large-category .large-link,
+.element-large-category .large-link a,
+.article-back span::before,
+.article-next span::after {
+	color: rgba(2,83,146,1);
+}
+.link-category {
+    background-color: rgba(2,83,146,1);
+}
+.link-category a{
+    border: 2px solid rgba(2,83,146,1);
+}
+.element-auto-search-housing a:hover {
+	color: rgba(2,83,146,1);
+}
+.block-small-category .heading-lv2::before {
+    background: url(../imgs/icon_category.png) no-repeat left center;
+    background-color: rgba(2,83,146,1);
+}
+.link-other-category h3::before {
+	background: url(../imgs/icon_check.png) no-repeat center center;
+    background-color: rgba(2,83,146,1);
+}
+.element-text-small-article .link-category {
+    background: rgba(2,83,146,1);
+}
+
+
+
+
+

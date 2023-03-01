@@ -1,0 +1,15 @@
+@charset "UTF-8";
+body {
+  font-size: 14px;
+  font-family: "Hiragino Kaku Gothic ProN", "メイリオ",  sans-serif;
+}
+
+p {margin:0;}
+a {color:inherit;}
+.tx-color1{color:#c00000;}
+.tx-color2{color:#0070c0;}
+.tx-color3{color:#00b050;}
+.tx-stress{font-weight:bold;}
+.tar{text-align:right;}
+.tac{text-align:center;}
+.tal{text-align:left;}

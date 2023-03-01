@@ -1,0 +1,12 @@
+.main-contents input.watch-input-count[type="text"], .modal-contents input.watch-input-count[type="text"] {
+  padding-right: 5px;
+}
+.main-contents .input-count, .modal-contents .input-count {
+  text-align: right;
+  margin: 3px 0 0 auto;
+  float: right;
+  height: 22px;
+  line-height: 22px;
+  width: auto !important;
+  padding-right: 0 !important;
+}

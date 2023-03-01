@@ -1,0 +1,13 @@
+{
+    "name": "V1api",
+    "alias": "v1api",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\V1api\\Providers\\V1apiServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

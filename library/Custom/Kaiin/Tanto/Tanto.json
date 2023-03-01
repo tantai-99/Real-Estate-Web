@@ -1,0 +1,80 @@
+{
+  "model": {
+    "tantoCd": "sample string 1",
+    "tantoName": "担当者名(dummy)",
+    "shozokuTypeCd": "sample string 3",
+    "shozokuTypeName": "sample string 4",
+    "isTaishoku": true,
+    "tantoShozoku": {
+      "mShozokuBuCd": "所属部名（dummy)",
+      "mShozokuKaCd": "所属課名（dummy)",
+      "mShozokuHanCd": "所属班名（dummy)",
+      "mShozokuEigyoshoName": "所属営業所名（dummy)",
+      "tantoEigyosho": {
+        "sortKey": "sample string 1",
+        "kurodenCd": "sample string 2",
+        "calendarCd": "sample string 3",
+        "printerCd": "sample string 4",
+        "tankaKaiinNo": "sample string 5",
+        "fsB4StartSeq": "sample string 6",
+        "fsB4EndSeq": "sample string 7",
+        "fsB4StartYobiSeq": "sample string 8",
+        "fsB4EndYobiSeq": "sample string 9",
+        "fsB5StartSeq": "sample string 10",
+        "fsB5EndSeq": "sample string 11",
+        "fsB5StartYobiSeq": "sample string 12",
+        "fsB5EndYobiSeq": "sample string 13",
+        "chinSokuStartSeq": "sample string 14",
+        "chinSokuEndSeq": "sample string 15",
+        "chinSokuStartYobiSeq": "sample string 16",
+        "chinSokuEndYobiSeq": "sample string 17",
+        "furiwakeBukkenNoStartSeq": "sample string 18",
+        "furiwakeBukkenNoEndSeq": "sample string 19",
+        "areaCd1": "sample string 20",
+        "areaName1": "sample string 21",
+        "areaCd2": "sample string 22",
+        "areaName2": "sample string 23",
+        "kbn1": "sample string 24",
+        "kbn2": "sample string 25",
+        "kbn3": "sample string 26",
+        "kbn4": "sample string 27",
+        "kbn5": "sample string 28"
+      },
+      "mShozokuBuName": "sample string 5",
+      "mShozokuKaName": "テスト課",
+      "mShozokuHanName": "sample string 7"
+    }
+  },
+  "errors": [
+    {
+      "message": "sample string 1",
+      "fields": [
+        "sample string 1",
+        "sample string 2"
+      ]
+    },
+    {
+      "message": "sample string 1",
+      "fields": [
+        "sample string 1",
+        "sample string 2"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "message": "sample string 1",
+      "fields": [
+        "sample string 1",
+        "sample string 2"
+      ]
+    },
+    {
+      "message": "sample string 1",
+      "fields": [
+        "sample string 1",
+        "sample string 2"
+      ]
+    }
+  ]
+}
